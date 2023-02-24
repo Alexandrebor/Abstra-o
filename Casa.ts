@@ -1,9 +1,10 @@
 import { Imovel } from './Imovel';
 class Casa extends Imovel{
   public numero: string = 'S/N';
-  public qtdQuartos: number;
+  public qtdComodos: number;
   public Garagem: boolean;
   public parede: string;
+  public habitese: string = ' ';
 
   setGaragem(Garagem:boolean){
     if(Garagem == <=1){
